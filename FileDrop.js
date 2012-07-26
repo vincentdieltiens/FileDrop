@@ -1,8 +1,10 @@
-var FileDrop = null;
+var vd = vd || [];
+
+var vd.FileDrop = null;
 
 (function ($){
 
-	FileDrop = new Class({
+	vd.FileDrop = new Class({
 		Implements: [Options],
 		initialize: function(containerOrSelector, options) {
 			
